@@ -221,7 +221,7 @@
                     <div class="card-body card-body-cascade text-center pb-3">
                         <!-- Title -->
                         <h4 class="card-title mb-1">
-                        <strong>Laptop Bag (LB-HR-01)</strong>
+                        <strong>Laptop Bag (LB-HR-02)</strong>
                         </h4>
                         <!-- Description -->
                         <p class="card-text py-3" style="font-size:16px;color:#444;line-height:1.6em">
@@ -231,7 +231,7 @@
                         <!-- Card footer -->
                         <div class="card-footer px-1">
                         <span class="float-left font-weight-bold py-2" style="font-size: 18px;">
-                            <strong>&#8377; 2150</strong>
+                            <strong>&#8377; 2250</strong>
                         </span>
                         <span class="float-right">
                             <a class="material-tooltip-main btn btn-elegant waves-effect btn-md" data-toggle="tooltip" data-placement="top" title="Order Now">
