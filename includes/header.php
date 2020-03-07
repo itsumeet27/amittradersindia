@@ -23,6 +23,11 @@
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+<style type="text/css">
+    *{
+        font-family:'Poppins','sans-serif';
+    }
+</style>
 <body>
     <!--Navbar -->
         <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color elegant-color">
