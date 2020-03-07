@@ -74,6 +74,175 @@
         <div class="py-5 px-4 container-fluid">
             <h1 class="text-center h1-responsive p-3" style="font-family:'Righteous', 'sans-serif'">OUR PRODUCTS</h1>
         </div>
+        <div class="row py-3 container-fluid">
+            <div class="col-md-4">
+                <div class="card card-cascade narrower card-ecommerce">
+                    <!--Carousel Wrapper-->
+                    <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                        <!--Slides-->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/products/laptop bags/Laptop-7-1.jpg"
+                                alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/products/laptop bags/Laptop-7-2.jpg"
+                                alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/products/laptop bags/Laptop-7-3.jpg"
+                                alt="Third slide">
+                            </div>
+                        </div>
+                        <!--/.Slides-->
+                        <!--Controls-->
+                        <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <!--/.Controls-->
+                    </div>
+                    <!--/.Carousel Wrapper-->
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center pb-3">
+                        <!-- Title -->
+                        <h4 class="card-title mb-1">
+                        <strong>Laptop Bag (LB-HR-01)</strong>
+                        </h4>
+                        <!-- Description -->
+                        <p class="card-text py-3" style="font-size:16px;color:#444;line-height:1.6em">
+                            <b>Available in:</b> Black<br>
+                            <b>Accepting also:</b> Bulk orders for gift items in corporate
+                        </p>
+                        <!-- Card footer -->
+                        <div class="card-footer px-1">
+                        <span class="float-left font-weight-bold py-2" style="font-size: 18px;">
+                            <strong>&#8377; 2150</strong>
+                        </span>
+                        <span class="float-right">
+                            <a class="material-tooltip-main btn btn-elegant waves-effect btn-md" data-toggle="tooltip" data-placement="top" title="Order Now">
+                            Order Now</a>
+                        </span>
+                        </div>
+                    </div>
+                    <!-- Card content -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-cascade narrower card-ecommerce">
+                    <!--Carousel Wrapper-->
+                    <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                        <!--Slides-->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/products/passport holder/Passport-1.jpg"
+                                alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/products/passport holder/Passport-1-1.png"
+                                alt="Second slide">
+                            </div>
+                        </div>
+                        <!--/.Slides-->
+                        <!--Controls-->
+                        <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <!-- Controls -->
+                    </div>
+                    <!--/.Carousel Wrapper-->
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center pb-3">
+                        <!-- Title -->
+                        <h4 class="card-title mb-1">
+                        <strong>Passport Holder (AT-PH-01)</strong>
+                        </h4>
+                        <!-- Description -->
+                        <p class="card-text py-3" style="font-size:16px;color:#444;line-height:1.6em">
+                            <b>Available in:</b> Black/Brown<br>
+                            <b>Accepting also:</b> Bulk orders for gift items in corporate
+                        </p>
+                        <!-- Card footer -->
+                        <div class="card-footer px-1">
+                            <span class="float-left font-weight-bold py-2" style="font-size: 18px;">
+                                <strong>&#8377; 1250</strong>
+                            </span>
+                            <span class="float-right">
+                                <a class="material-tooltip-main btn btn-elegant waves-effect btn-md" data-toggle="tooltip" data-placement="top" title="Order Now">
+                                Order Now</a>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Card content -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-cascade narrower card-ecommerce">
+                    <!--Carousel Wrapper-->
+                    <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                        <!--Slides-->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/products/laptop bags/Laptop-2-1.png"
+                                alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/products/laptop bags/Laptop-2-2.png"
+                                alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/products/laptop bags/Laptop-2-3.png"
+                                alt="Third slide">
+                            </div>
+                        </div>
+                        <!--/.Slides-->
+                        <!--Controls-->
+                        <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <!-- Controls -->
+                    </div>
+                    <!--/.Carousel Wrapper-->
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center pb-3">
+                        <!-- Title -->
+                        <h4 class="card-title mb-1">
+                        <strong>Laptop Bag (LB-HR-01)</strong>
+                        </h4>
+                        <!-- Description -->
+                        <p class="card-text py-3" style="font-size:16px;color:#444;line-height:1.6em">
+                            <b>Available in:</b> Black<br>
+                            <b>Accepting also:</b> Bulk orders for gift items in corporate
+                        </p>
+                        <!-- Card footer -->
+                        <div class="card-footer px-1">
+                        <span class="float-left font-weight-bold py-2" style="font-size: 18px;">
+                            <strong>&#8377; 2150</strong>
+                        </span>
+                        <span class="float-right">
+                            <a class="material-tooltip-main btn btn-elegant waves-effect btn-md" data-toggle="tooltip" data-placement="top" title="Order Now">
+                            Order Now</a>
+                        </span>
+                        </div>
+                    </div>
+                    <!-- Card content -->
+                </div>
+            </div>
+        </div>
         <!-- Featured Products -->
 
     <!-- End your project here-->
