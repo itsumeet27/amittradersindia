@@ -48,12 +48,12 @@
 
         <!-- About us -->
             <div class="py-5 px-4 container-fluid" style="background-color: #ffba8d75">
-                <h1 class="text-center p-4" style="font-family:'Righteous', 'sans-serif'">ABOUT US</h1>
+                <h2 class="text-center h2-responsive p-4" style="font-family:'Righteous', 'sans-serif'">ABOUT US</h2>
                 <div class="row py-3">
-                    <div class="about-img col-md-4 px-3">
+                    <div class="about-img col-md-4 px-3 py-2">
                         <img src="img/amittradersindia.jpg" style="width:100%"/>
                     </div>
-                    <div class="about-content text-justify col-md-8 px-3" style="font-family:'Poppins','sans-serif';font-size:18px;line-height:1.6em">
+                    <div class="about-content text-justify col-md-8 px-3 py-2" style="font-family:'Poppins','sans-serif';font-size:18px;line-height:1.6em">
                         <p>
                             We at Amit Traders deal in manufacturing and supplying genuine leather products
                             and corporate gift articles such as Laptop Bags, Passport Holders, Gents Wallet, etc.
