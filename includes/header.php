@@ -8,6 +8,8 @@
   <meta name="author" content="Sumeet Sharma - Software Engineer | UI/Frontend Developer | Web Developer">
   <meta name="keywords" content="Genuine leather products online, leather products for corporate gifts, best leather products online, laptop bags in genuine leather, gents wallet in genuine leather, passport holder in genuine leather">
   <title>Amit Traders India - Manufacturers and Suppliers of leather goods</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Righteous&display=swap" rel="stylesheet">
   <!-- MDB icon -->
   <link rel="icon" href="img/logo.ico" type="image/x-icon">
   <!-- Font Awesome -->
