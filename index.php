@@ -72,7 +72,7 @@
 
         <!-- Featured Products -->
         <div class="py-5 px-4 container-fluid">
-            <h1 class="text-center p-4" style="font-family:'Righteous', 'sans-serif'">OUR PRODUCTS</h1>
+            <h1 class="text-center p-3" style="font-family:'Righteous', 'sans-serif'">OUR PRODUCTS</h1>
         </div>
         <!-- Featured Products -->
 
