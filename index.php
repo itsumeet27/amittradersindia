@@ -1,8 +1,9 @@
 <?php include ('includes/header.php');?>
 
     <!-- Start your project here-->  
+
         <!--Carousel Wrapper-->
-            <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel" style="box-shadow: 0px 4px 3px 1px rgba(0,0,0,0.5)">
+            <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
             <!--Indicators-->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
@@ -46,7 +47,7 @@
         <!--/.Carousel Wrapper-->
 
         <!-- About us -->
-            <div class="py-5 px-4 container-fluid">
+            <div class="py-5 px-4 container-fluid" style="background-color: #ffba8d75">
                 <h1 class="text-center p-4" style="font-family:'Righteous', 'sans-serif'">ABOUT US</h1>
                 <div class="row py-3">
                     <div class="about-img col-md-4 px-3">
@@ -68,6 +69,13 @@
                 </div>
             </div>
         <!-- About us -->
+
+        <!-- Featured Products -->
+        <div class="py-5 px-4 container-fluid">
+            <h1 class="text-center p-4" style="font-family:'Righteous', 'sans-serif'">OUR PRODUCTS</h1>
+        </div>
+        <!-- Featured Products -->
+
     <!-- End your project here-->
 
 <?php include ('includes/footer.php');?>
