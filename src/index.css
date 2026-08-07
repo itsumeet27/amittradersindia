@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #FAF7F2;
+    color: #382E26;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading, .font-serif {
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  .font-subheading {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+  }
+
+  .font-body, p, span, button, input, select, textarea {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom Scrollbar for pastel theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F3ECE0;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5B099;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8C532B;
+}

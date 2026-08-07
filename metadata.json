@@ -1,0 +1,6 @@
+{
+  "name": "Amit Traders",
+  "description": "Manufacturer and supplier of premium leather goods and luxury corporate gift articles with 18+ years of industry excellence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
