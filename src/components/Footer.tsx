@@ -15,7 +15,7 @@ export const Footer: React.FC<FooterProps> = ({ profile, onSelectCategory }) => 
 
   return (
     <footer className="bg-[#FAF7F2] text-[#382E26] border-t border-[#E8DFD1] text-xs">
-      
+
       {/* Top Value Strip */}
       <div className="border-b border-[#E8DFD1] py-8 bg-[#F3ECE0]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -63,7 +63,7 @@ export const Footer: React.FC<FooterProps> = ({ profile, onSelectCategory }) => 
 
       {/* Main Footer Links */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 md:grid-cols-12 gap-8">
-        
+
         {/* Col 1: Brand Info */}
         <div className="md:col-span-4 space-y-4">
           <div className="flex items-center gap-2.5">
@@ -75,7 +75,7 @@ export const Footer: React.FC<FooterProps> = ({ profile, onSelectCategory }) => 
           </p>
 
           <p className="text-[11px] font-semibold text-[#8C532B]">
-            GSTIN: {profile?.gstNumber || '27AABCA1234F1Z0'} • Trusted Supplier
+            GSTIN: {profile?.gstNumber || '27AZWPS0795D1ZO'} • Trusted Supplier
           </p>
         </div>
 
@@ -128,10 +128,10 @@ export const Footer: React.FC<FooterProps> = ({ profile, onSelectCategory }) => 
           <p className="font-bold text-[#2A221B] uppercase tracking-wider text-xs">Sales & Manufacturing</p>
           <div className="space-y-2 text-xs text-[#594B3F]">
             <p className="flex items-center gap-2">
-              <PhoneCall className="w-3.5 h-3.5 text-[#8C532B]" /> {profile?.phone || '+91 (022) 2834-9000'}
+              <PhoneCall className="w-3.5 h-3.5 text-[#8C532B]" /> {profile?.phone || '+91 97680 10310'}
             </p>
             <p className="flex items-center gap-2">
-              <Mail className="w-3.5 h-3.5 text-[#8C532B]" /> {profile?.email || 'corporate@amittraders.in'}
+              <Mail className="w-3.5 h-3.5 text-[#8C532B]" /> {profile?.email || 'dk.amittraders@gmail.com'}
             </p>
             <p className="flex items-start gap-2">
               <MapPin className="w-3.5 h-3.5 text-[#8C532B] shrink-0 mt-0.5" />

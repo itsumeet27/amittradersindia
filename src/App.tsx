@@ -18,22 +18,22 @@ import { Product, ClientPartner, InquiryBasketItem, CompanyProfile, InquiryRecor
 
 const DEFAULT_PROFILE: CompanyProfile = {
   companyName: 'AMIT TRADERS',
-  tagline: 'Master Craftsmen & Exporters of Full-Grain Leather Goods',
+  tagline: 'Manufacturers and Suppliers of Leather Goods and Corporate Gift articles',
   subtitle: 'Manufacturers of Luxury Executive Laptop Bags, Wallets, Passport Holders & Custom Corporate Gift Sets Since 2008',
   heroDescription: 'Over 18 years of manufacturing excellence supplying Fortune 500 corporate clients across Mumbai, India and internationally. Complete OEM/ODM customization, low MOQs, and certified full-grain leather craftsmanship.',
-  phone: '+91 (022) 2834-9000 / +91 98200 12345',
-  email: 'corporate@amittraders.in',
-  address: 'Unit #104-108, Leather Goods Industrial Complex, Andheri-Kurla Road, MIDC Industrial Area, Andheri East, Mumbai - 400093, Maharashtra, India.',
-  gstNumber: '27AABCA1234F1Z0',
+  phone: '+91 97680 10310',
+  email: 'dk.amittraders@gmail.com',
+  address: 'B-1403, Kakad Paradise, Mahajanwadi, Penkarpada, Mira Road (E), Thane - 401107',
+  gstNumber: '27AZWPS0795D1ZO',
   yearsInBusiness: '18+',
   workingHours: 'Mon - Sat: 09:30 AM - 07:00 PM IST',
-  whatsappNumber: '+91 98200 12345'
+  whatsappNumber: '+91 97680 10310'
 };
 
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
-  
+
   // Dynamic Backend Data State
   const [profile, setProfile] = useState<CompanyProfile>(DEFAULT_PROFILE);
   const [products, setProducts] = useState<Product[]>([]);
@@ -186,7 +186,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#FAF7F2] text-[#382E26] font-sans selection:bg-[#8C532B] selection:text-white">
-      
+
       {/* Sticky Executive Header */}
       <Header
         profile={profile}

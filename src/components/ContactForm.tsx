@@ -68,7 +68,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ profile }) => {
   return (
     <section id="contact-section" className="py-16 sm:py-20 bg-[#FAF7F2] text-[#382E26] relative border-b border-[#E8DFD1]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#F2EADF] border border-[#D9C8B4] text-[#8C532B] text-xs font-semibold uppercase tracking-wider">
@@ -84,10 +84,10 @@ export const ContactForm: React.FC<ContactFormProps> = ({ profile }) => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-          
+
           {/* Left Column: Direct Contact Info & Factory Details */}
           <div className="lg:col-span-5 space-y-6">
-            
+
             {/* Manufacturing Address Card */}
             <div className="p-6 sm:p-8 rounded-2xl bg-[#FFFFFF] border border-[#E8DFD1] space-y-4 shadow-sm">
               <h3 className="text-xl font-bold text-[#2A221B] flex items-center gap-2">
@@ -104,18 +104,18 @@ export const ContactForm: React.FC<ContactFormProps> = ({ profile }) => {
                     {profile?.address || 'Unit #104-108, Leather Goods Industrial Complex, MIDC, Andheri East, Mumbai - 400093'}
                   </p>
                   <p className="font-mono text-xs text-[#8C532B] font-bold mt-1">
-                    GSTIN: {profile?.gstNumber || '27AABCA1234F1Z0'}
+                    GSTIN: {profile?.gstNumber || '27AZWPS0795D1ZO'}
                   </p>
                 </div>
 
                 <div className="pt-3 border-t border-[#E8DFD1] space-y-2 font-medium">
                   <div className="flex items-center gap-2">
                     <Phone className="w-4 h-4 text-[#8C532B]" />
-                    <span>{profile?.phone || '+91 (022) 2834-9000'}</span>
+                    <span>{profile?.phone || '+91 97680 10310'}</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Mail className="w-4 h-4 text-[#8C532B]" />
-                    <span>{profile?.email || 'corporate@amittraders.in'}</span>
+                    <span>{profile?.email || 'dk.amittraders@gmail.com'}</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="w-4 h-4 text-[#8C532B]" />
@@ -151,7 +151,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ profile }) => {
           {/* Right Column: Contact Form */}
           <div className="lg:col-span-7">
             <div className="bg-[#FFFFFF] border border-[#E8DFD1] p-6 sm:p-8 rounded-2xl shadow-md">
-              
+
               {submitted ? (
                 <div className="text-center py-10 space-y-3">
                   <div className="w-14 h-14 rounded-full bg-emerald-50 border border-emerald-300 text-emerald-700 mx-auto flex items-center justify-center">

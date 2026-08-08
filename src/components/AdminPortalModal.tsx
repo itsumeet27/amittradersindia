@@ -136,7 +136,7 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({
   return (
     <div className="fixed inset-0 z-50 overflow-hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 animate-fade-in">
       <div className="bg-[#FAF7F2] text-[#382E26] border border-[#E8DFD1] rounded-2xl w-full max-w-5xl max-h-[90vh] shadow-2xl flex flex-col overflow-hidden">
-        
+
         {/* Header */}
         <div className="p-6 bg-[#2A221B] text-white flex items-center justify-between border-b border-[#382E26]">
           <div className="flex items-center gap-3">
@@ -184,11 +184,10 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({
         <div className="bg-[#F3ECE0] border-b border-[#E8DFD1] px-6 flex items-center gap-2 overflow-x-auto">
           <button
             onClick={() => setActiveTab('profile')}
-            className={`py-3.5 px-4 font-semibold text-xs border-b-2 flex items-center gap-2 transition ${
-              activeTab === 'profile'
+            className={`py-3.5 px-4 font-semibold text-xs border-b-2 flex items-center gap-2 transition ${activeTab === 'profile'
                 ? 'border-[#8C532B] text-[#8C532B] bg-[#FAF7F2]'
                 : 'border-transparent text-[#6E6257] hover:text-[#2A221B]'
-            }`}
+              }`}
           >
             <Building className="w-4 h-4" />
             <span>Company Profile & GST Details</span>
@@ -196,11 +195,10 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({
 
           <button
             onClick={() => setActiveTab('products')}
-            className={`py-3.5 px-4 font-semibold text-xs border-b-2 flex items-center gap-2 transition ${
-              activeTab === 'products'
+            className={`py-3.5 px-4 font-semibold text-xs border-b-2 flex items-center gap-2 transition ${activeTab === 'products'
                 ? 'border-[#8C532B] text-[#8C532B] bg-[#FAF7F2]'
                 : 'border-transparent text-[#6E6257] hover:text-[#2A221B]'
-            }`}
+              }`}
           >
             <Package className="w-4 h-4" />
             <span>Manage Products ({products.length})</span>
@@ -208,11 +206,10 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({
 
           <button
             onClick={() => setActiveTab('inquiries')}
-            className={`py-3.5 px-4 font-semibold text-xs border-b-2 flex items-center gap-2 transition ${
-              activeTab === 'inquiries'
+            className={`py-3.5 px-4 font-semibold text-xs border-b-2 flex items-center gap-2 transition ${activeTab === 'inquiries'
                 ? 'border-[#8C532B] text-[#8C532B] bg-[#FAF7F2]'
                 : 'border-transparent text-[#6E6257] hover:text-[#2A221B]'
-            }`}
+              }`}
           >
             <Inbox className="w-4 h-4" />
             <span>Form Submissions & Email Logs ({inquiries.length})</span>
@@ -229,7 +226,7 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({
 
         {/* Modal Content Body */}
         <div className="flex-1 overflow-y-auto p-6">
-          
+
           {/* TAB 1: COMPANY PROFILE EDIT */}
           {activeTab === 'profile' && (
             <form onSubmit={handleProfileSubmit} className="space-y-6 max-w-3xl mx-auto">
@@ -258,7 +255,7 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({
                       value={profileForm.gstNumber}
                       onChange={(e) => setProfileForm({ ...profileForm, gstNumber: e.target.value })}
                       className="w-full px-3 py-2 text-xs rounded-lg border border-[#E8DFD1] bg-[#FAF7F2] font-mono text-[#8C532B] font-bold"
-                      placeholder="27AABCA1234F1Z0"
+                      placeholder="27AZWPS0795D1ZO"
                       required
                     />
                   </div>

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { 
-  FileCheck, 
-  Send, 
-  CheckCircle2, 
-  Upload, 
-  Clock, 
-  ShieldCheck, 
+import {
+  FileCheck,
+  Send,
+  CheckCircle2,
+  Upload,
+  Clock,
+  ShieldCheck,
   Building2,
   PackageCheck
 } from 'lucide-react';
@@ -94,7 +94,7 @@ export const SupplierInquirySection: React.FC<SupplierInquirySectionProps> = ({
   return (
     <section id="inquiry-section" className="py-16 sm:py-20 bg-[#FAF7F2] text-[#382E26] relative border-b border-[#E8DFD1]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#F2EADF] border border-[#D9C8B4] text-[#8C532B] text-xs font-semibold uppercase tracking-wider">
@@ -110,7 +110,7 @@ export const SupplierInquirySection: React.FC<SupplierInquirySectionProps> = ({
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-          
+
           {/* Left Column: Factory Guarantees */}
           <div className="lg:col-span-5 space-y-6">
             <div className="bg-[#FFFFFF] border border-[#E8DFD1] p-6 sm:p-8 rounded-2xl shadow-sm space-y-6">
@@ -175,7 +175,7 @@ export const SupplierInquirySection: React.FC<SupplierInquirySectionProps> = ({
           {/* Right Column: Interactive Form */}
           <div className="lg:col-span-7">
             <div className="bg-[#FFFFFF] border border-[#E8DFD1] p-6 sm:p-8 rounded-2xl shadow-md">
-              
+
               {submittedResponse ? (
                 <div className="text-center py-12 space-y-4">
                   <div className="w-16 h-16 rounded-full bg-emerald-50 border border-emerald-300 text-emerald-700 mx-auto flex items-center justify-center">
@@ -200,7 +200,7 @@ export const SupplierInquirySection: React.FC<SupplierInquirySectionProps> = ({
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    
+
                     <div>
                       <label className="block text-xs font-bold text-[#382E26] uppercase tracking-wider mb-1.5">
                         Your Full Name *
@@ -232,7 +232,7 @@ export const SupplierInquirySection: React.FC<SupplierInquirySectionProps> = ({
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    
+
                     <div>
                       <label className="block text-xs font-bold text-[#382E26] uppercase tracking-wider mb-1.5">
                         Official Work Email *
@@ -254,7 +254,7 @@ export const SupplierInquirySection: React.FC<SupplierInquirySectionProps> = ({
                       <input
                         type="tel"
                         required
-                        placeholder="+91 98200 12345"
+                        placeholder="+91 97680 10310"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         className="w-full bg-[#FAF7F2] text-sm text-[#2A221B] placeholder-[#A09385] px-3.5 py-2.5 rounded-xl border border-[#E8DFD1] focus:border-[#8C532B] focus:outline-none"

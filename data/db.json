@@ -1,0 +1,81 @@
+{
+  "profile": {
+    "companyName": "AMIT TRADERS",
+    "tagline": "Manufacturers and Suppliers of Leather Goods and Corporate Gift articles",
+    "subtitle": "Manufacturers of Luxury Executive Laptop Bags, Wallets, Passport Holders & Custom Corporate Gift Sets Since 2008",
+    "heroDescription": "Over 18 years of manufacturing excellence supplying Fortune 500 corporate clients across Mumbai, India and internationally. Complete OEM/ODM customization, low MOQs, and certified full-grain leather craftsmanship.",
+    "phone": "+91 97680 10310",
+    "email": "dk.amittraders@gmail.com",
+    "address": "B-1403, Kakad Paradise, Mahajanwadi, Penkarpada, Mira Road (E), Thane - 401107",
+    "gstNumber": "27AZWPS0795D1ZO",
+    "yearsInBusiness": "18+",
+    "workingHours": "Mon - Sat: 09:30 AM - 07:00 PM IST",
+    "whatsappNumber": "+91 97680 10310"
+  },
+  "products": [
+    {
+      "id": "p-lb-01",
+      "name": "The Sovereign Full-Grain Leather Laptop Bag",
+      "category": "laptop-bags",
+      "tagline": "Handcrafted Full-Grain Leather Executive Laptop Briefcase",
+      "image": "/src/assets/images/hero_leather_catalog_1786125313308.jpg",
+      "gallery": [
+        "/src/assets/images/hero_leather_catalog_1786125313308.jpg",
+        "/src/assets/images/craftsmanship_detail_1786125326715.jpg",
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "The flagship executive laptop briefcase designed for corporate directors and C-suite leaders. Crafted from hand-selected full-grain Italian leather, featuring padded compartments for 16\" laptops, RFID-protected passport slots, and anti-tarnish solid brass hardware.",
+      "features": [
+        "Padded shock-absorbent 16-inch laptop compartment",
+        "Detachable padded leather shoulder strap with heavy brass hooks",
+        "Trolley strap on back for seamless airport travel",
+        "Reinforced handles with heavy-duty stitching",
+        "Internal organizer for pens, power banks, and business cards"
+      ],
+      "specs": {
+        "leatherGrade": "100% Full-Grain Vegetable Tanned Cowhide",
+        "dimensions": "41cm x 30cm x 10cm (Weight: 1.4 kg)",
+        "hardware": "Solid Antique Brass with Anti-Tarnish Coating",
+        "lining": "Custom Jacquard Silk Twill with Microfiber Padding",
+        "warranty": "5-Year Manufacturer Warranty"
+      },
+      "minOrderQuantity": 25,
+      "sampleAvailable": true,
+      "estimatedPricePerUnit": "₹2,850 - ₹4,200 / unit",
+      "availableColors": [
+        {
+          "name": "Cognac Brown",
+          "hex": "#8B4513"
+        },
+        {
+          "name": "Obsidian Black",
+          "hex": "#1C1B1A"
+        },
+        {
+          "name": "Saddle Tan",
+          "hex": "#A0522D"
+        },
+        {
+          "name": "Navy Blue",
+          "hex": "#1B2A4A"
+        }
+      ],
+      "customizationOptions": [
+        "Embossing & Engraving of Brand Logo Based on Die / Print Received",
+        "Custom Metallic Logo Plate Placement",
+        "Branded Watermarked Inner Silk Lining"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 142,
+      "isFeatured": true,
+      "targetOccasions": [
+        "Executive Onboarding",
+        "Leadership Awards",
+        "VIP Client Appreciation",
+        "Corporate Gifting"
+      ]
+    }
+  ],
+  "inquiries": []
+}

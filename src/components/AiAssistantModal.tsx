@@ -41,7 +41,7 @@ export const AiAssistantModal: React.FC<AiAssistantModalProps> = ({ isOpen, onCl
       });
 
       const data = await response.json();
-      setMessages(prev => [...prev, { sender: 'bot', text: data.reply || 'Thank you for your inquiry. Please reach out to our team at corporate@amittraders.in.' }]);
+      setMessages(prev => [...prev, { sender: 'bot', text: data.reply || 'Thank you for your inquiry. Please reach out to our team at dk.amittraders@gmail.com.' }]);
     } catch (err) {
       setMessages(prev => [
         ...prev,
@@ -57,7 +57,7 @@ export const AiAssistantModal: React.FC<AiAssistantModalProps> = ({ isOpen, onCl
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-fade-in">
-      <div 
+      <div
         className="bg-[#1D1916] text-[#FDFBF7] border border-[#D4AF37]/40 rounded-2xl max-w-2xl w-full h-[600px] max-h-[90vh] shadow-2xl flex flex-col relative"
         onClick={(e) => e.stopPropagation()}
       >
@@ -98,11 +98,10 @@ export const AiAssistantModal: React.FC<AiAssistantModalProps> = ({ isOpen, onCl
               )}
 
               <div
-                className={`max-w-[82%] p-3 rounded-xl text-xs leading-relaxed ${
-                  msg.sender === 'user'
+                className={`max-w-[82%] p-3 rounded-xl text-xs leading-relaxed ${msg.sender === 'user'
                     ? 'bg-[#8B4513] text-white rounded-tr-none'
                     : 'bg-[#241E1A] text-[#E2D5C5] border border-[#382E26] rounded-tl-none'
-                }`}
+                  }`}
               >
                 {msg.text}
               </div>
